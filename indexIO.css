@@ -26,6 +26,7 @@ a,
     transition: all300ms ease;
 }
 
+nav,.nav-links{
     display: flex;
 }
 
