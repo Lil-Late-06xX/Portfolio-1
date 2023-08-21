@@ -25,6 +25,10 @@
         display: flex;
     }
 
+    #up {
+        position: relative;
+        top: 3vh;
+    }
     #experience, .experience-det-container{
         margin-top: 2rem;
     }
