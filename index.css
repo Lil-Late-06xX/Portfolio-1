@@ -1,12 +1,21 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: rgb(139, 201, 209);
+    background-color: darkslategrey;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ 
+
  
 }
 
+#up{
+    position: relative;
+    bottom: 3vh;
+}
+
+
 :root{
-    --black:#24252a;
+    --black:#141414;
 }
 
 body{
@@ -18,7 +27,7 @@ html{
 }
 
 p{
-    color: rgb(85, 85, 85);
+    color: aliceblue;
 }
 
 a,
@@ -29,6 +38,8 @@ a,
 nav,.nav-links{
     display: flex;
 }
+
+
 
 nav{
     justify-content: space-around;
@@ -41,6 +52,7 @@ nav{
     list-style:none;
     letter-spacing: 4px;
     font-size: 1.5rem;
+    font-weight: 700;
 }
 a{
     text-decoration: none;
@@ -179,6 +191,7 @@ section{
 
 .section-text p {
     font-weight: 600;
+    color: aliceblue;
 }
 
 .section-text-p1{
@@ -186,6 +199,7 @@ section{
     text-align: center;
     padding-bottom: 20px;
     font-weight: 600;
+    color: aliceblue;
 }
 .section-text-p2{
     font-size: 1.75rem;
@@ -214,6 +228,7 @@ section{
     font-weight: 600;
     letter-spacing: 1px;
     line-height: 25px;
+    color: aliceblue;
 }
 .abtme::first-letter{
     font-size: 1.5rem;
@@ -322,10 +337,11 @@ section{
     padding: 1.5rem;
     flex: 1;
     border-radius: 2rem;
-    border:  solid 0.1rem;
-    border-color: rgb(163, 163, 163);
+    border: darkred 0.5px solid;
     text-align: center;
     font-weight: 500;
+    box-shadow: 15px 15px 15px #343434;
+    height: fit-content;
 }
 h3{
     margin-top: 10px;
@@ -335,7 +351,7 @@ h3{
 .section-container{
     gap: 4rem;
     height: 50%;
-    padding-top: 100px;
+    padding-top: 50px;
 
 }
 .section-pic-container{
@@ -350,10 +366,11 @@ h3{
 
 }
 .experience-title{
-    color:rgb(85, 85, 85) ;
+    color:#141414 ;
     font-weight: 600;
     font-size: 1.75rem;
     margin-bottom: 2rem;
+    
 }
 
 .experience-det-container{
@@ -390,15 +407,11 @@ article .icon{
     position: relative;
 }
 
-.color-container{
-    border-color: rgb(163, 163, 163);
-
-}
 
 .project-img{
-    border-radius: 2rem;
-    width: 90%;
-    height: 90%;
+    border-radius: 10px;
+    width: 75%;
+    height: 75%;
 }
 .project-title{
     margin: 1rem;
@@ -427,6 +440,7 @@ article .icon{
     border-color: rgb(163, 163, 163);
     margin: 2rem auto;
     padding: 0.5rem;
+    box-shadow: 15px 15px 15px #141414;
 }
 
 .contact-info-container{
