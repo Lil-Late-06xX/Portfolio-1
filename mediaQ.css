@@ -27,6 +27,11 @@
 
     #up {
         position: relative;
+        top:2vh;
+    }
+
+    #up2 {
+        position: relative;
         top: 3vh;
     }
     #experience, .experience-det-container{
